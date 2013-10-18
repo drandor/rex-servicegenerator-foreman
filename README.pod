@@ -11,3 +11,7 @@ Just clone the repository and install rex.
 The test enc file is in I<enc> directory. In I<lib> directory are 2 required Rex modules.
 
 The I<module> directory contains 3 example modules (which are doing nothing at the moment). And the I<service> folder contains one example service.
+
+ cd service/frontend
+ rex -T
+ rex -H gearman01 setup
