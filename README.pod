@@ -15,3 +15,7 @@ The I<module> directory contains 3 example modules (which are doing nothing at t
  cd service/frontend
  rex -T
  rex -H gearman01 setup
+
+=head2 Dependencies
+
+To use this you need the following Perl modules: I<YAML::Perl>, I<IO::All>.
