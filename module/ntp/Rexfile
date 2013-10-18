@@ -1,0 +1,8 @@
+use Rex -base;
+use Data::Dumper;
+
+task "setup", sub {
+   my $param = shift;
+   say "module::ntp";
+   print Dumper($param);
+};

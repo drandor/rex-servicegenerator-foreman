@@ -1,0 +1,16 @@
+---
+classes:
+    common:
+    ntp:
+        ntpserver: 0.pool.ntp.org
+    apt:
+        additional_apt_repos:
+            - deb localrepo.example.com/ubuntu lucid production
+            - deb localrepo.example.com/ubuntu lucid vendor
+parameters:
+    ntp_servers:
+        - 0.pool.ntp.org
+        - ntp.example.com
+    mail_server: mail.example.com
+    iburst: true
+environment: production

@@ -1,0 +1,19 @@
+use Rex -base;
+use lib '../../lib';
+
+use Rex::Ext::Stack "../../module";
+use Rex::Ext::ServiceGenerator::Foreman;
+
+set service_generator => {
+   path => "../../enc",
+};
+
+user "root";
+
+task setup => sub {
+
+   execute_service;
+
+};
+
+1;

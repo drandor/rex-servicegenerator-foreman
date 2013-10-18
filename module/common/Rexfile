@@ -1,0 +1,6 @@
+use Rex -base;
+
+
+task "setup", sub {
+   say "module::common";
+};

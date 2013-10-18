@@ -1,0 +1,7 @@
+=pod
+
+=head2 Rex::Ext::ServiceGenerator::Foreman - Auto Service Generator
+
+This is a small extension to create rex services on the fly from foreman/puppet enc files.
+
+
